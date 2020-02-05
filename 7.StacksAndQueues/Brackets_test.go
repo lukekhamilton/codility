@@ -1,4 +1,4 @@
-package __StacksAndQueues
+package StacksAndQueues
 
 import "testing"
 
