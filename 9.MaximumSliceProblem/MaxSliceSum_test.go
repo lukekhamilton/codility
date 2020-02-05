@@ -16,6 +16,7 @@ func TestMaxSliceSum(t *testing.T) {
 		{"ex2", args{[]int{-2, -3, -6, -12, -1, -52}}, -1},
 		{"ex3", args{[]int{2, 3, 6, 12, 1, 52}}, 76},
 		{"ex4", args{[]int{1, -3, 2, 1, -1}}, 3},
+		{"ex5", args{[]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}}, 6},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
