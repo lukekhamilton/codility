@@ -1,4 +1,4 @@
-package __MaximumSliceProblem
+package MaximumSliceProblem
 
 import "testing"
 
